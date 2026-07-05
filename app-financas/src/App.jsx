@@ -252,7 +252,7 @@ ${expenseListText || 'Nenhum gasto registrado.'}`;
   const handleLogin = (e) => {
     e.preventDefault();
     // Senha padrão definida aqui. Você pode alterar para a senha que desejar.
-    if (passwordInput === 'isis1379') { 
+    if (passwordInput === '1379') { 
       setIsAuthenticated(true);
       localStorage.setItem('familyAppAuth', 'true');
       setLoginError('');
@@ -303,7 +303,7 @@ ${expenseListText || 'Nenhum gasto registrado.'}`;
               Entrar
             </button>
           </form>
-          <p className="text-xs text-center text-gray-400 mt-6">Senha padrão: <strong>isis1379</strong></p>
+         
         </div>
       </div>
     );
