@@ -233,7 +233,7 @@
             e.preventDefault();
             if (passwordInput === '1234') { 
               setIsAuthenticated(true);
-              localStorage.setItem('familyAppAuth', 'true');
+              localStorage.setItem('familyAppAuth','true');
               setLoginError('');
             } else {
               setLoginError('Senha incorreta. Tente novamente.');
