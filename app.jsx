@@ -251,7 +251,7 @@ ${expenseListText || 'Nenhum gasto registrado.'}`;
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Senha padrão definida aqui. Você pode alterar para a senha que desejar.
+  
     if (passwordInput === 'isis1379') { 
       setIsAuthenticated(true);
       localStorage.setItem('familyAppAuth', 'true');
